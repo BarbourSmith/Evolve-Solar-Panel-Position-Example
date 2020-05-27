@@ -137,6 +137,15 @@
             "max": 90
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Incident solar energy",
+            "x": 0.48755490483162517,
+            "y": 0.5708812260536399,
+            "uniqueID": 315247,
+            "projectID": "259087553",
+            "ioValues": []
+        },
+        {
             "atomType": "Constant",
             "name": "Y Degrees",
             "x": 0.18081991215226942,
@@ -151,15 +160,6 @@
             "evolve": true,
             "min": 0,
             "max": 90
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Incident solar energy",
-            "x": 0.48169838945827237,
-            "y": 0.6973180076628352,
-            "uniqueID": 315247,
-            "projectID": "259087553",
-            "ioValues": []
         },
         {
             "atomType": "Genetic Algorithm",
@@ -215,18 +215,18 @@
             "ap2ID": 159401
         },
         {
-            "ap1Name": "number",
-            "ap2Name": "y-axis degrees",
-            "ap2Primary": false,
-            "ap1ID": 416522,
-            "ap2ID": 159401
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "fitness function",
             "ap2Primary": false,
             "ap1ID": 315247,
             "ap2ID": 168194
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "y-axis degrees",
+            "ap2Primary": false,
+            "ap1ID": 416522,
+            "ap2ID": 159401
         }
     ],
     "fileTypeVersion": 1,
