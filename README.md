@@ -4,3 +4,12 @@
 
 ![](/project.svg)
 
+## Evolve Solar Panel Position Example
+
+
+## Incident solar energy
+
+
+Returns a rough approximation of the total solar energy incident on a input geometry. Very rough because it assumes a static sun position.
+
+

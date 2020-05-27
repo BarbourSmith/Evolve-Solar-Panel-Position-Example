@@ -108,11 +108,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 40
+                    "ioValue": 33.516385523654414
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 34
+                    "ioValue": 10.873092922694342
                 },
                 {
                     "name": "z-axis degrees",
@@ -129,7 +129,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 40
+                    "ioValue": 33.516385523654414
                 }
             ],
             "evolve": true,
@@ -139,13 +139,13 @@
         {
             "atomType": "Constant",
             "name": "Y Degrees",
-            "x": 0.17642752562225475,
-            "y": 0.7739463601532567,
+            "x": 0.18081991215226942,
+            "y": 0.7816091954022989,
             "uniqueID": 416522,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 34
+                    "ioValue": 10.873092922694342
                 }
             ],
             "evolve": true,
@@ -153,10 +153,19 @@
             "max": 90
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Incident solar energy",
+            "x": 0.48169838945827237,
+            "y": 0.6973180076628352,
+            "uniqueID": 315247,
+            "projectID": "259087553",
+            "ioValues": []
+        },
+        {
             "atomType": "Genetic Algorithm",
             "name": "Genetic Algorithm",
-            "x": 0.5563689604685212,
-            "y": 0.5938697318007663,
+            "x": 0.7115666178623719,
+            "y": 0.6551724137931034,
             "uniqueID": 168194,
             "ioValues": [
                 {
@@ -193,10 +202,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "fitness function",
+            "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": 159401,
-            "ap2ID": 168194
+            "ap2ID": 315247
         },
         {
             "ap1Name": "number",
@@ -211,6 +220,13 @@
             "ap2Primary": false,
             "ap1ID": 416522,
             "ap2ID": 159401
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "fitness function",
+            "ap2Primary": false,
+            "ap1ID": 315247,
+            "ap2ID": 168194
         }
     ],
     "fileTypeVersion": 1,
