@@ -102,17 +102,17 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.3601756954612006,
-            "y": 0.27586206896551724,
+            "x": 0.37262079062957537,
+            "y": 0.2796934865900383,
             "uniqueID": 159401,
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 40
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 34
                 },
                 {
                     "name": "z-axis degrees",
@@ -129,28 +129,45 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 10
+                    "ioValue": 40
                 }
             ],
-            "evolve": false,
+            "evolve": true,
             "min": 0,
-            "max": 20
+            "max": 90
         },
         {
             "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.19326500732064422,
-            "y": 0.8237547892720306,
+            "name": "Y Degrees",
+            "x": 0.17642752562225475,
+            "y": 0.7739463601532567,
             "uniqueID": 416522,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 10
+                    "ioValue": 34
                 }
             ],
-            "evolve": false,
+            "evolve": true,
             "min": 0,
-            "max": 20
+            "max": 90
+        },
+        {
+            "atomType": "Genetic Algorithm",
+            "name": "Genetic Algorithm",
+            "x": 0.5563689604685212,
+            "y": 0.5938697318007663,
+            "uniqueID": 168194,
+            "ioValues": [
+                {
+                    "name": "population size",
+                    "ioValue": 50
+                },
+                {
+                    "name": "number of generations",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -166,6 +183,33 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 224551,
+            "ap2ID": 159401
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 159401
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "fitness function",
+            "ap2Primary": false,
+            "ap1ID": 159401,
+            "ap2ID": 168194
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "x-axis degrees",
+            "ap2Primary": false,
+            "ap1ID": 108779,
+            "ap2ID": 159401
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "y-axis degrees",
+            "ap2Primary": false,
+            "ap1ID": 416522,
             "ap2ID": 159401
         }
     ],
