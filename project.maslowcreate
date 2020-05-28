@@ -108,11 +108,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 33.516385523654414
+                    "ioValue": 80.09462982093841
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 10.873092922694342
+                    "ioValue": 75.19107759717453
                 },
                 {
                     "name": "z-axis degrees",
@@ -129,7 +129,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 33.516385523654414
+                    "ioValue": 80.09462982093841
                 }
             ],
             "evolve": true,
@@ -154,7 +154,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 10.873092922694342
+                    "ioValue": 75.19107759717453
                 }
             ],
             "evolve": true,
