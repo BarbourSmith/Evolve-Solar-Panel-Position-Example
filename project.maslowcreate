@@ -108,11 +108,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 1.3632349285904724
+                    "ioValue": 1.3134356795295332
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 31.033091142461238
+                    "ioValue": 33.69916221164134
                 },
                 {
                     "name": "z-axis degrees",
@@ -123,13 +123,13 @@
         {
             "atomType": "Constant",
             "name": "X Degrees",
-            "x": 0.17569546120058566,
-            "y": 0.6015325670498084,
+            "x": 0.17542120911793854,
+            "y": 0.6091954022988505,
             "uniqueID": 108779,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 1.3632349285904724
+                    "ioValue": 1.3134356795295332
                 }
             ],
             "evolve": true,
@@ -154,7 +154,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 31.033091142461238
+                    "ioValue": 33.69916221164134
                 }
             ],
             "evolve": true,
@@ -170,7 +170,7 @@
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 160.0996166396942
+                    "ioValue": 159.77915901824971
                 },
                 {
                     "name": "population size",
