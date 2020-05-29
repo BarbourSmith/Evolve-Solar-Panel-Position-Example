@@ -68,6 +68,15 @@
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.6625183016105417,
+                    "y": 0.3486590038314176,
+                    "uniqueID": 143262,
+                    "ioValues": [],
+                    "selectedColorIndex": "11"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -92,9 +101,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 387336,
+                    "ap2ID": 143262
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 387336
+                    "ap1ID": 143262
                 }
             ],
             "fileTypeVersion": 1
@@ -108,11 +124,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 1.5854305506993245
+                    "ioValue": 1.4228483060022823
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 31.408513664141395
+                    "ioValue": 28.018281283811923
                 },
                 {
                     "name": "z-axis degrees",
@@ -129,7 +145,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 1.5854305506993245
+                    "ioValue": 1.4228483060022823
                 }
             ],
             "evolve": true,
@@ -139,8 +155,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Incident solar energy",
-            "x": 0.48755490483162517,
-            "y": 0.5708812260536399,
+            "x": 0.5073206442166911,
+            "y": 0.524904214559387,
             "uniqueID": 315247,
             "projectID": "259087553",
             "ioValues": []
@@ -154,7 +170,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 31.408513664141395
+                    "ioValue": 28.018281283811923
                 }
             ],
             "evolve": true,
@@ -170,7 +186,7 @@
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 160.09752648467904
+                    "ioValue": 160.09844146292903
                 },
                 {
                     "name": "population size",
