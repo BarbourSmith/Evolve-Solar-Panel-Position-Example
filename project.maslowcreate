@@ -208,11 +208,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0
+                    "ioValue": 0.9701267189971202
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 26.39621748259852
+                    "ioValue": 28.860364546270368
                 },
                 {
                     "name": "z-axis degrees",
@@ -223,13 +223,13 @@
         {
             "atomType": "Constant",
             "name": "X Degrees",
-            "x": 0.17542120911793854,
-            "y": 0.6091954022988505,
+            "x": 0.1698389458272328,
+            "y": 0.48275862068965514,
             "uniqueID": 108779,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 0
+                    "ioValue": 0.9701267189971202
                 }
             ],
             "evolve": true,
@@ -239,8 +239,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Incident solar energy",
-            "x": 0.5073206442166911,
-            "y": 0.524904214559387,
+            "x": 0.5117130307467057,
+            "y": 0.5095785440613027,
             "uniqueID": 315247,
             "projectID": "259087553",
             "ioValues": []
@@ -254,7 +254,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 26.39621748259852
+                    "ioValue": 28.860364546270368
                 }
             ],
             "evolve": true,
@@ -264,13 +264,13 @@
         {
             "atomType": "Genetic Algorithm",
             "name": "Genetic Algorithm",
-            "x": 0.7137628111273793,
-            "y": 0.6475095785440613,
+            "x": 0.719619326500732,
+            "y": 0.6513409961685823,
             "uniqueID": 168194,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 338.12621724360537
+                    "ioValue": 340.6864668314261
                 },
                 {
                     "name": "population size",
