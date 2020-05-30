@@ -17,23 +17,10 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.27379209370424595,
-                    "y": 0.35249042145593873,
-                    "uniqueID": 868956,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.15373352855051245,
-                    "y": 0.47126436781609193,
+                    "x": 0.13616398243045388,
+                    "y": 0.29885057471264365,
                     "uniqueID": 724187,
                     "ioValues": [
                         {
@@ -47,10 +34,88 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.2569546120058565,
+                    "y": 0.27586206896551724,
+                    "uniqueID": 868956,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.4685212298682284,
+                    "y": 0.2222222222222222,
+                    "uniqueID": 250601,
+                    "ioValues": [],
+                    "selectedColorIndex": "11"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3096632503660322,
+                    "y": 0.5670498084291188,
+                    "uniqueID": 666350,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": -10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.1383601756954612,
+                    "y": 0.632183908045977,
+                    "uniqueID": 195733,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 425
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 425
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.4333821376281113,
+                    "y": 0.5632183908045977,
+                    "uniqueID": 746959,
+                    "ioValues": [],
+                    "selectedColorIndex": "10"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.698389458272328,
+                    "y": 0.3831417624521073,
+                    "uniqueID": 513340,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.49487554904831627,
-                    "y": 0.3563218390804597,
+                    "x": 0.8177159590043923,
+                    "y": 0.31800766283524906,
                     "uniqueID": 387336,
                     "ioValues": [
                         {
@@ -68,15 +133,6 @@
                     ]
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.6625183016105417,
-                    "y": 0.3486590038314176,
-                    "uniqueID": 143262,
-                    "ioValues": [],
-                    "selectedColorIndex": "11"
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -89,13 +145,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 868956,
-                    "ap2ID": 387336
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 724187,
                     "ap2ID": 868956
                 },
@@ -103,14 +152,49 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 387336,
-                    "ap2ID": 143262
+                    "ap1ID": 868956,
+                    "ap2ID": 250601
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 250601,
+                    "ap2ID": 513340
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 666350,
+                    "ap2ID": 746959
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 195733,
+                    "ap2ID": 666350
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 746959,
+                    "ap2ID": 513340
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 513340,
+                    "ap2ID": 387336
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 143262
+                    "ap1ID": 387336
                 }
             ],
             "fileTypeVersion": 1
@@ -124,11 +208,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 1.4228483060022823
+                    "ioValue": 0
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 28.018281283811923
+                    "ioValue": 26.39621748259852
                 },
                 {
                     "name": "z-axis degrees",
@@ -145,7 +229,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 1.4228483060022823
+                    "ioValue": 0
                 }
             ],
             "evolve": true,
@@ -170,7 +254,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 28.018281283811923
+                    "ioValue": 26.39621748259852
                 }
             ],
             "evolve": true,
@@ -180,13 +264,13 @@
         {
             "atomType": "Genetic Algorithm",
             "name": "Genetic Algorithm",
-            "x": 0.7115666178623719,
-            "y": 0.6551724137931034,
+            "x": 0.7137628111273793,
+            "y": 0.6475095785440613,
             "uniqueID": 168194,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 160.09844146292903
+                    "ioValue": 338.12621724360537
                 },
                 {
                     "name": "population size",
