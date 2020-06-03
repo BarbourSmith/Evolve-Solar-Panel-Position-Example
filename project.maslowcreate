@@ -208,11 +208,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0.9701267189971202
+                    "ioValue": 72.84734697296908
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 28.860364546270368
+                    "ioValue": 47.46680593113518
                 },
                 {
                     "name": "z-axis degrees",
@@ -229,7 +229,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 0.9701267189971202
+                    "ioValue": 72.84734697296908
                 }
             ],
             "evolve": true,
@@ -254,7 +254,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 28.860364546270368
+                    "ioValue": 47.46680593113518
                 }
             ],
             "evolve": true,
@@ -270,7 +270,7 @@
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 340.6864668314261
+                    "ioValue": 162.4393712748879
                 },
                 {
                     "name": "population size",
