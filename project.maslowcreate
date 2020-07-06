@@ -208,11 +208,11 @@
             "ioValues": [
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 72.84734697296908
+                    "ioValue": 0.6408856751769563
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 47.46680593113518
+                    "ioValue": 28.66895280757426
                 },
                 {
                     "name": "z-axis degrees",
@@ -229,7 +229,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 72.84734697296908
+                    "ioValue": 0.6408856751769563
                 }
             ],
             "evolve": true,
@@ -254,7 +254,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 47.46680593113518
+                    "ioValue": 28.66895280757426
                 }
             ],
             "evolve": true,
@@ -262,15 +262,15 @@
             "max": 90
         },
         {
-            "atomType": "Genetic Algorithm",
+            "atomType": "GeneticAlgorithm",
             "name": "Genetic Algorithm",
-            "x": 0.719619326500732,
-            "y": 0.6513409961685823,
-            "uniqueID": 168194,
+            "x": 0.6896046852122988,
+            "y": 0.685823754789272,
+            "uniqueID": 669785,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 162.4393712748879
+                    "ioValue": 340.6842209132875
                 },
                 {
                     "name": "population size",
@@ -323,7 +323,7 @@
             "ap2Name": "fitness function",
             "ap2Primary": false,
             "ap1ID": 315247,
-            "ap2ID": 168194
+            "ap2ID": 669785
         },
         {
             "ap1Name": "number",
