@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Solar Panel",
-            "x": 0.11786237188872621,
-            "y": 0.29118773946360155,
+            "x": 0.11200585651537336,
+            "y": 0.29389312977099236,
             "uniqueID": 224551,
             "ioValues": [],
             "topLevel": false,
@@ -41,6 +41,10 @@
                     "uniqueID": 868956,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/130859/224551/724187Rectangle"
+                        },
+                        {
                             "name": "height",
                             "ioValue": 1
                         }
@@ -52,7 +56,12 @@
                     "x": 0.4685212298682284,
                     "y": 0.2222222222222222,
                     "uniqueID": 250601,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/130859/224551/868956Extrude"
+                        }
+                    ],
                     "selectedColorIndex": "11"
                 },
                 {
@@ -62,6 +71,10 @@
                     "y": 0.5670498084291188,
                     "uniqueID": 666350,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/130859/224551/195733Rectangle"
+                        },
                         {
                             "name": "height",
                             "ioValue": -10
@@ -91,7 +104,12 @@
                     "x": 0.4333821376281113,
                     "y": 0.5632183908045977,
                     "uniqueID": 746959,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/130859/224551/666350Extrude"
+                        }
+                    ],
                     "selectedColorIndex": "10"
                 },
                 {
@@ -119,6 +137,10 @@
                     "uniqueID": 387336,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/130859/224551/513340Assembly"
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -137,7 +159,13 @@
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
-                    "ioValues": []
+                    "uniqueID": 964409,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/130859/224551/387336Translate"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -194,7 +222,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 387336
+                    "ap1ID": 387336,
+                    "ap2ID": 964409
                 }
             ],
             "fileTypeVersion": 1
@@ -206,6 +235,10 @@
             "y": 0.2796934865900383,
             "uniqueID": 159401,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/130859/224551/387336Translate"
+                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 0.6408856751769563
@@ -239,8 +272,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Incident solar energy",
-            "x": 0.5117130307467057,
-            "y": 0.5095785440613027,
+            "x": 0.5102489019033675,
+            "y": 0.5305343511450381,
             "uniqueID": 315247,
             "projectID": "259087553",
             "ioValues": []
@@ -287,7 +320,13 @@
             "name": "Output",
             "x": 0.9853587115666179,
             "y": 0.5,
-            "ioValues": []
+            "uniqueID": 273742,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/130859/159401Rotate"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -300,16 +339,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 159401
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": 159401,
             "ap2ID": 315247
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 159401,
+            "ap2ID": 273742
         },
         {
             "ap1Name": "number",
