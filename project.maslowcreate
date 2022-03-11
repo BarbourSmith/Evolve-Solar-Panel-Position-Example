@@ -243,7 +243,7 @@
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 23.96594424757078
+                    "ioValue": 23.927417656309366
                 },
                 {
                     "name": "y-axis degrees",
@@ -264,7 +264,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 23.96594424757078
+                    "ioValue": 23.927417656309366
                 }
             ],
             "evolve": true,
@@ -300,8 +300,8 @@
         {
             "atomType": "GeneticAlgorithm",
             "name": "Genetic Algorithm",
-            "x": 0.6858465608465608,
-            "y": 0.6646153846153846,
+            "x": 0.6931216931216931,
+            "y": 0.6461538461538461,
             "uniqueID": 669785,
             "ioValues": [
                 {
