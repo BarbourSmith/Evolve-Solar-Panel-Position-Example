@@ -42,7 +42,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/130859/224551/724187Rectangle"
+                            "ioValue": "source/130859/224551/724187Rectangle"
                         },
                         {
                             "name": "height",
@@ -59,7 +59,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/130859/224551/868956Extrude"
+                            "ioValue": "source/130859/224551/868956Extrude"
                         }
                     ],
                     "selectedColorIndex": "11"
@@ -73,7 +73,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/130859/224551/195733Rectangle"
+                            "ioValue": "source/130859/224551/195733Rectangle"
                         },
                         {
                             "name": "height",
@@ -107,7 +107,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/130859/224551/666350Extrude"
+                            "ioValue": "source/130859/224551/666350Extrude"
                         }
                     ],
                     "selectedColorIndex": "10"
@@ -121,11 +121,11 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
+                            "ioValue": "source/130859/224551/250601Color"
                         },
                         {
                             "name": "3D shape 2",
-                            "ioValue": 10
+                            "ioValue": "source/130859/224551/746959Color"
                         }
                     ]
                 },
@@ -138,7 +138,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/130859/224551/513340Assembly"
+                            "ioValue": "source/130859/224551/513340Assembly"
                         },
                         {
                             "name": "xDist",
@@ -163,7 +163,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/130859/224551/387336Translate"
+                            "ioValue": "source/130859/224551/387336Translate"
                         }
                     ]
                 }
@@ -226,7 +226,9 @@
                     "ap2ID": 964409
                 }
             ],
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Rotate",
@@ -237,7 +239,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/130859/224551/387336Translate"
+                    "ioValue": "source/130859/224551Molecule"
                 },
                 {
                     "name": "x-axis degrees",
@@ -276,7 +278,13 @@
             "y": 0.5305343511450381,
             "uniqueID": 315247,
             "projectID": "259087553",
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 10
+                }
+            ],
+            "simplify": false
         },
         {
             "atomType": "Constant",
@@ -324,7 +332,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/130859/159401Rotate"
+                    "ioValue": "source/130859/159401Rotate"
                 }
             ]
         }
@@ -374,6 +382,8 @@
         }
     ],
     "fileTypeVersion": 1,
+    "simplify": false,
+    "unitsIndex": 0,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
 }
