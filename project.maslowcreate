@@ -243,11 +243,11 @@
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 0.6408856751769563
+                    "ioValue": 23.96594424757078
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 28.66895280757426
+                    "ioValue": 0
                 },
                 {
                     "name": "z-axis degrees",
@@ -258,13 +258,13 @@
         {
             "atomType": "Constant",
             "name": "X Degrees",
-            "x": 0.1698389458272328,
-            "y": 0.48275862068965514,
+            "x": 0.17261904761904762,
+            "y": 0.49538461538461537,
             "uniqueID": 108779,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 0.6408856751769563
+                    "ioValue": 23.96594424757078
                 }
             ],
             "evolve": true,
@@ -274,16 +274,11 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Incident solar energy",
-            "x": 0.5102489019033675,
-            "y": 0.5305343511450381,
+            "x": 0.5132275132275133,
+            "y": 0.52,
             "uniqueID": 315247,
             "projectID": "259087553",
-            "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "simplify": false
         },
         {
@@ -295,7 +290,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 28.66895280757426
+                    "ioValue": 0
                 }
             ],
             "evolve": true,
@@ -305,13 +300,13 @@
         {
             "atomType": "GeneticAlgorithm",
             "name": "Genetic Algorithm",
-            "x": 0.6896046852122988,
-            "y": 0.685823754789272,
+            "x": 0.6858465608465608,
+            "y": 0.6646153846153846,
             "uniqueID": 669785,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 340.6842209132875
+                    "ioValue": 180.22792158116044
                 },
                 {
                     "name": "population size",
