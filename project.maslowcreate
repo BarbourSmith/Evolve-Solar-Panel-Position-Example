@@ -53,8 +53,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.4685212298682284,
-                    "y": 0.2222222222222222,
+                    "x": 0.4715608465608465,
+                    "y": 0.21846153846153848,
                     "uniqueID": 250601,
                     "ioValues": [
                         {
@@ -62,7 +62,7 @@
                             "ioValue": "source/130859/224551/868956Extrude"
                         }
                     ],
-                    "selectedColorIndex": "11"
+                    "selectedColorIndex": "19"
                 },
                 {
                     "atomType": "Extrude",
@@ -101,8 +101,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.4333821376281113,
-                    "y": 0.5632183908045977,
+                    "x": 0.43716931216931215,
+                    "y": 0.5507692307692308,
                     "uniqueID": 746959,
                     "ioValues": [
                         {
@@ -110,13 +110,13 @@
                             "ioValue": "source/130859/224551/666350Extrude"
                         }
                     ],
-                    "selectedColorIndex": "10"
+                    "selectedColorIndex": "18"
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.698389458272328,
-                    "y": 0.3831417624521073,
+                    "x": 0.6977513227513228,
+                    "y": 0.39692307692307693,
                     "uniqueID": 513340,
                     "ioValues": [
                         {
@@ -243,11 +243,11 @@
                 },
                 {
                     "name": "x-axis degrees",
-                    "ioValue": 23.927417656309366
+                    "ioValue": 0.9621193672482811
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 0
+                    "ioValue": -30.224501315118175
                 },
                 {
                     "name": "z-axis degrees",
@@ -258,13 +258,13 @@
         {
             "atomType": "Constant",
             "name": "X Degrees",
-            "x": 0.17261904761904762,
-            "y": 0.49538461538461537,
+            "x": 0.16600159616919394,
+            "y": 0.49846153846153846,
             "uniqueID": 108779,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 23.927417656309366
+                    "ioValue": 0.9621193672482811
                 }
             ],
             "evolve": true,
@@ -274,8 +274,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Incident solar energy",
-            "x": 0.5132275132275133,
-            "y": 0.52,
+            "x": 0.5013227513227514,
+            "y": 0.5076923076923077,
             "uniqueID": 315247,
             "projectID": "259087553",
             "ioValues": [],
@@ -284,29 +284,60 @@
         {
             "atomType": "Constant",
             "name": "Y Degrees",
-            "x": 0.18081991215226942,
-            "y": 0.7816091954022989,
+            "x": 0.174780526735834,
+            "y": 0.7753846153846153,
             "uniqueID": 416522,
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 0
+                    "ioValue": -30.224501315118175
                 }
             ],
             "evolve": true,
-            "min": 0,
+            "min": -40,
             "max": 90
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4557063048683161,
+            "y": 0.7230769230769231,
+            "uniqueID": 247735,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": "source/130859/874856Code"
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": "source/130859/159401Rotate"
+                }
+            ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.34716679968076614,
+            "y": 0.8184615384615385,
+            "uniqueID": 874856,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": "source/130859/159401Rotate"
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1];\n\n\nconst incidentSolarEnergyPerMeter = 1000; //watts/m^2\nconst incidentSolarEnergyPerMM = incidentSolarEnergyPerMeter / 1000000;\n\nconst angleOfTheSun = -29.7; //degrees...totall aproximation because obvously the sun moves. Found from https://www.solarpaneltilt.com/\n\n//Offset our angle by where the sun is\nconst rotatedShape = Input1.rotateY(angleOfTheSun/360);\n\n//console.log('After rotate');\n\nconst pannelSize = rotatedShape.cast().area();\n\nconst incidentEnergy = incidentSolarEnergyPerMM * pannelSize;\n\n//log('Incident energy: ' + incidentEnergy);\n\nreturn rotatedShape.cast();"
         },
         {
             "atomType": "GeneticAlgorithm",
             "name": "Genetic Algorithm",
-            "x": 0.6931216931216931,
-            "y": 0.6461538461538461,
+            "x": 0.6975259377494014,
+            "y": 0.6338461538461538,
             "uniqueID": 669785,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 180.22792158116044
+                    "ioValue": 340.68386757316364
                 },
                 {
                     "name": "population size",
@@ -317,6 +348,20 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "x",
+            "x": 0.5945730247406226,
+            "y": 0.8492307692307693,
+            "uniqueID": 217768,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 340.68386757316364
+                }
+            ],
+            "currentEquation": "x"
         },
         {
             "atomType": "Output",
@@ -342,6 +387,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 159401,
+            "ap2ID": 273742
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": 159401,
@@ -349,10 +401,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "Input1",
             "ap2Primary": false,
             "ap1ID": 159401,
-            "ap2ID": 273742
+            "ap2ID": 874856
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 159401,
+            "ap2ID": 247735
         },
         {
             "ap1Name": "number",
@@ -369,11 +428,25 @@
             "ap2ID": 669785
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 315247,
+            "ap2ID": 217768
+        },
+        {
             "ap1Name": "number",
             "ap2Name": "y-axis degrees",
             "ap2Primary": false,
             "ap1ID": 416522,
             "ap2ID": 159401
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 874856,
+            "ap2ID": 247735
         }
     ],
     "fileTypeVersion": 1,
